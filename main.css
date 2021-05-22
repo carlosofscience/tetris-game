@@ -1,0 +1,27 @@
+ul,html, body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+.tetris-board{
+    outline: 1px solid black;
+    width: 360px;
+    height: 780px;
+    margin: 2em auto;
+}
+
+.tetris-board li{
+    outline: 1px solid black;
+    width: 30px;
+    height: 30px;
+    float: left;
+    background-color: white;
+}
